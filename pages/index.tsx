@@ -17,7 +17,7 @@ export default function Home() {
                         <Link className={style.botao} href={'/'}>Rastrear encomenda</Link >
                     </div>
                 </div>
-                <img className='cursor-pointer' src="./assets/veic.png" alt="" />
+                <img className='cursor-pointer h-[440px] mb-[15px]' src="./assets/veic.png" alt="" />
             </div>
         </main>
     )

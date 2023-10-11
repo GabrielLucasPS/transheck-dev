@@ -34,7 +34,8 @@
 }
 
 .configBtn:hover {
-    background-color: #EA1313;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 0px;
+
 }
 
 .configBtn img {
