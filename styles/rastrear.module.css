@@ -1,24 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-a{
-    color:white;
-    text-decoration: none;
-}
-
-.nav{
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: black;
     height: 8.9vh;
-    list-style-type:none;
+    list-style-type: none;
     font-size: 30px;
 }
 
-.rastreio{
+.rastreio {
     border: 2px solid;
     width: 680px;
     height: auto;
@@ -28,31 +18,34 @@ a{
     align-items: center;
 }
 
-.ras{
+.ras {
     margin-right: 60px;
     margin-left: 30px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.cpf{
+
+.cpf {
     border: 2px solid;
     margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
     width: 100px;
 }
-.pro{
+
+.pro {
     border: 2px solid;
     margin-right: 40px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.p1{
+
+.p1 {
     margin: 3px 3px 3px 3px;
     opacity: 20%;
 }
 
-.dia{
+.dia {
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid black;
@@ -65,10 +58,17 @@ a{
     justify-content: space-evenly;
 }
 
-.h6{
+.h6 {
     color: white;
     background-color: black;
     font-size: 20px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.container_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
